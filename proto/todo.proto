@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package todo;
+
+service ShippingService {
+  rpc AddTodo(Todo) returns (AddResponse) {}
+  rpc GetTodos(GetRequest) returns (GetResponse) {}
+  rpc DeleteTodo(DeleteRequest) returns (DeleteResponse) {}
+}
+
+message Todo {
+  string id = 1;
+  string name = 2;
+  string description = 3;
+  string deadline = 4;
+}
+
+
+message GetRequest {}
+
+message DeleteRequest {
+    string id = 1;
+}
+
+message AddResponse {
+  bool created = 1;
+  Todo todo = 2;
+}
+
+message GetResponse {
+  repeated Todo todos = 1;
+}
+
+message DeleteResponse {
+  bool deleted = 1;
+  Todo todo = 2;
+}
