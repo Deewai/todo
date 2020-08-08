@@ -1,8 +1,7 @@
 build:
-	protoc -I. --go_out=plugins=grpc:$(GOPATH)/src/github.com/ewanvalentine/shipper/consignment-service \
-	  proto/consignment/consignment.proto
-	GOOS=linux GOARCH=amd64 go build
-	docker build -t shippy-service-consignment .
+	cd todo-service && $(MAKE) build
+	cd todo-client && $(MAKE) build
 
 run: 
-    docker run -p 50051:50051 shippy-service-consignment
+	cd todo-service && CLIENT_PORT=${CLIENT_PORT} SERVER_ADDRESS=localhost:${CLIENT_PORT} $(MAKE) run
+	cd todo-client && SERVICE_PORT=${SERVICE_PORT} $(MAKE) run

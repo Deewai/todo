@@ -1,25 +1,26 @@
 package main
 
 import (
-	pb "github.com/Deewai/todo/proto/build/todo"
+	"net"
+
+	pb "github.com/Deewai/todo/todo-service/internal/proto/todo"
 	"github.com/Deewai/todo/todo-service/pkg/config"
 	"github.com/Deewai/todo/todo-service/pkg/log"
 	"github.com/Deewai/todo/todo-service/pkg/storage"
 	"github.com/Deewai/todo/todo-service/pkg/todo"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
-	"net"
 )
 
-func main(){
+func main() {
 	env, err := config.LoadEnv()
-	if err != nil{
+	if err != nil {
 		log.Fatalf("Error loading config: %v", err)
 	}
 
 	db := storage.NewDB()
 	service := todo.NewService(db)
-	lis, err := net.Listen("tcp", env.Port)
+	lis, err := net.Listen("tcp", ":"+env.Port)
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
 	}
