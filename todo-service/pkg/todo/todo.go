@@ -4,6 +4,7 @@ import (
 	"context"
 
 	"github.com/Deewai/todo/todo-service/internal/proto/todo"
+
 	"github.com/google/uuid"
 )
 
