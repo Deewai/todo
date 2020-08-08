@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package todo;
 
-service ShippingService {
+service TodoService {
   rpc AddTodo(Todo) returns (AddResponse) {}
   rpc GetTodos(GetRequest) returns (GetResponse) {}
   rpc DeleteTodo(DeleteRequest) returns (DeleteResponse) {}

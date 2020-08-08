@@ -18,7 +18,7 @@ type Error struct {
 	Error string `json:"error"`
 }
 
-var client pb.ShippingServiceClient
+var client pb.TodoServiceClient
 
 func main() {
 	conf, err := config.LoadEnv()
@@ -32,7 +32,7 @@ func main() {
 		log.Fatalf("Did not connect: %v", err)
 	}
 	defer conn.Close()
-	client = pb.NewShippingServiceClient(conn)
+	client = pb.NewTodoServiceClient(conn)
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/todos", handleCreateTodo).Methods("POST")
 	router.HandleFunc("/todos", handleGetTodos).Methods("GET")

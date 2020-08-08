@@ -26,7 +26,7 @@ func main() {
 		log.Fatalf("failed to listen: %v", err)
 	}
 	s := grpc.NewServer()
-	pb.RegisterShippingServiceServer(s, service)
+	pb.RegisterTodoServiceServer(s, service)
 
 	reflection.Register(s)
 	log.Infof("Serving on port :%s", env.Port)

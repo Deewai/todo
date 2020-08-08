@@ -302,26 +302,26 @@ func init() {
 func init() { proto.RegisterFile("todo.proto", fileDescriptor_0e4b95d0c4e09639) }
 
 var fileDescriptor_0e4b95d0c4e09639 = []byte{
-	// 298 bytes of a gzipped FileDescriptorProto
-	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x52, 0xc1, 0x4e, 0xc2, 0x40,
-	0x10, 0xa5, 0x50, 0x05, 0xa7, 0x8a, 0x3a, 0x7a, 0xd8, 0x70, 0xd0, 0x66, 0x4f, 0xc6, 0x03, 0x46,
-	0x3c, 0x79, 0x24, 0x31, 0x21, 0xf1, 0x58, 0xfc, 0x01, 0xec, 0x4c, 0x64, 0x13, 0xec, 0xd6, 0xee,
-	0xea, 0x4f, 0xf9, 0x93, 0xa6, 0xb3, 0x2d, 0x14, 0x2e, 0xde, 0x66, 0xde, 0xbc, 0xd9, 0xf7, 0xde,
-	0x64, 0x01, 0xbc, 0x25, 0x3b, 0x2d, 0x2b, 0xeb, 0x2d, 0xc6, 0x75, 0xad, 0xd7, 0x10, 0xbf, 0x59,
-	0xb2, 0x38, 0x86, 0xbe, 0x21, 0x15, 0xa5, 0xd1, 0xdd, 0x49, 0xd6, 0x37, 0x84, 0x08, 0x71, 0xb1,
-	0xfa, 0x64, 0xd5, 0x17, 0x44, 0x6a, 0x4c, 0x21, 0x21, 0x76, 0x79, 0x65, 0x4a, 0x6f, 0x6c, 0xa1,
-	0x06, 0x32, 0xea, 0x42, 0x38, 0x81, 0x11, 0xf1, 0x8a, 0x36, 0xa6, 0x60, 0x15, 0xcb, 0x78, 0xdb,
-	0xeb, 0x53, 0x80, 0x05, 0xfb, 0x8c, 0xbf, 0xbe, 0xd9, 0x79, 0x7d, 0x0b, 0x67, 0x2f, 0xbc, 0x61,
-	0xcf, 0x0d, 0x70, 0x68, 0x40, 0x2f, 0x20, 0x99, 0x13, 0x65, 0xec, 0x4a, 0x5b, 0x38, 0x46, 0x05,
-	0xc3, 0xbc, 0xe2, 0x95, 0xe7, 0xc0, 0x19, 0x65, 0x6d, 0x8b, 0x37, 0x20, 0x49, 0xc4, 0x69, 0x32,
-	0x83, 0xa9, 0x44, 0xac, 0x33, 0x65, 0x21, 0xe1, 0x03, 0x24, 0xa2, 0xdb, 0x3c, 0x94, 0xc2, 0x51,
-	0x0d, 0x3b, 0x15, 0xa5, 0x83, 0x03, 0x7e, 0x18, 0xe8, 0x57, 0x18, 0xb7, 0xd6, 0x76, 0xe2, 0x24,
-	0xc8, 0x56, 0xbc, 0x69, 0xff, 0x13, 0x9f, 0xfd, 0x46, 0x70, 0xbe, 0x5c, 0x9b, 0xb2, 0x34, 0xc5,
-	0xc7, 0x92, 0xab, 0x1f, 0x93, 0x33, 0xde, 0xc3, 0x70, 0x4e, 0x24, 0x57, 0xef, 0x2c, 0x4c, 0x2e,
-	0x43, 0xdd, 0x09, 0xad, 0x7b, 0xf8, 0x08, 0xa3, 0x05, 0xfb, 0x7a, 0xee, 0xf0, 0x22, 0x10, 0x76,
-	0x47, 0x6c, 0x57, 0x3a, 0xf1, 0x74, 0x0f, 0x9f, 0x01, 0x82, 0x7d, 0x51, 0xb8, 0x0a, 0x94, 0xbd,
-	0x5b, 0x4f, 0xae, 0xf7, 0xc1, 0x76, 0xf5, 0xfd, 0x58, 0x7e, 0xc6, 0xd3, 0x5f, 0x00, 0x00, 0x00,
-	0xff, 0xff, 0x01, 0xdd, 0xc6, 0x66, 0x27, 0x02, 0x00, 0x00,
+	// 292 bytes of a gzipped FileDescriptorProto
+	0x1f, 0x8b, 0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xff, 0x84, 0x52, 0x31, 0x4e, 0xc3, 0x40,
+	0x10, 0x8c, 0x13, 0x43, 0xc2, 0x1a, 0x22, 0x58, 0x28, 0x4e, 0x29, 0xc0, 0xba, 0x0a, 0x51, 0x04,
+	0x11, 0x2a, 0xca, 0x48, 0x48, 0x96, 0x28, 0x0d, 0x1f, 0x30, 0xde, 0x95, 0x38, 0x29, 0xf8, 0x8c,
+	0xef, 0xe0, 0x4b, 0x7c, 0x13, 0x79, 0xcf, 0x4e, 0x9c, 0x34, 0x74, 0xbb, 0x33, 0x73, 0x9e, 0x99,
+	0x95, 0x01, 0xbc, 0x25, 0xbb, 0xac, 0x1b, 0xeb, 0x2d, 0xc6, 0xed, 0xac, 0x3f, 0x20, 0x7e, 0xb3,
+	0x64, 0x71, 0x0e, 0x63, 0x43, 0x2a, 0x4a, 0xa3, 0xdb, 0x93, 0x7c, 0x6c, 0x08, 0x11, 0xe2, 0xaa,
+	0xf8, 0x64, 0x35, 0x16, 0x44, 0x66, 0x4c, 0x21, 0x21, 0x76, 0x65, 0x63, 0x6a, 0x6f, 0x6c, 0xa5,
+	0x26, 0x42, 0x0d, 0x21, 0x5c, 0xc0, 0x8c, 0xb8, 0xa0, 0x8d, 0xa9, 0x58, 0xc5, 0x42, 0x6f, 0x77,
+	0x7d, 0x0a, 0x90, 0xb1, 0xcf, 0xf9, 0xeb, 0x9b, 0x9d, 0xd7, 0x37, 0x70, 0xf6, 0xcc, 0x1b, 0xf6,
+	0xdc, 0x01, 0x87, 0x01, 0x74, 0x06, 0xc9, 0x9a, 0x28, 0x67, 0x57, 0xdb, 0xca, 0x31, 0x2a, 0x98,
+	0x96, 0x0d, 0x17, 0x9e, 0x83, 0x66, 0x96, 0xf7, 0x2b, 0x5e, 0x83, 0x34, 0x91, 0xa4, 0xc9, 0x0a,
+	0x96, 0x52, 0xb1, 0xed, 0x94, 0x87, 0x86, 0xf7, 0x90, 0x88, 0x6f, 0xf7, 0xa1, 0x14, 0x8e, 0x5a,
+	0xd8, 0xa9, 0x28, 0x9d, 0x1c, 0xe8, 0x03, 0xa1, 0x5f, 0x60, 0xde, 0x47, 0xdb, 0x99, 0x93, 0x20,
+	0x5b, 0xf3, 0x6e, 0xfd, 0xcf, 0x7c, 0xf5, 0x1b, 0x41, 0xd2, 0xae, 0xaf, 0xdc, 0xfc, 0x98, 0x92,
+	0xf1, 0x0e, 0xa6, 0x6b, 0x22, 0xb9, 0xf8, 0x40, 0xbc, 0xb8, 0x08, 0xf3, 0xa0, 0xb0, 0x1e, 0xe1,
+	0x03, 0xcc, 0x32, 0xf6, 0x2d, 0xef, 0xf0, 0x3c, 0x08, 0x76, 0x07, 0xec, 0x9f, 0x0c, 0xaa, 0xe9,
+	0x11, 0x3e, 0x01, 0x84, 0xe8, 0xe2, 0x70, 0x19, 0x24, 0x7b, 0x77, 0x5e, 0x5c, 0xed, 0x83, 0xfd,
+	0xd3, 0xf7, 0x63, 0xf9, 0x2b, 0x1e, 0xff, 0x02, 0x00, 0x00, 0xff, 0xff, 0x48, 0x15, 0x26, 0x2e,
+	0x23, 0x02, 0x00, 0x00,
 }
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -332,144 +332,144 @@ var _ grpc.ClientConn
 // is compatible with the grpc package it is being compiled against.
 const _ = grpc.SupportPackageIsVersion4
 
-// ShippingServiceClient is the client API for ShippingService service.
+// TodoServiceClient is the client API for TodoService service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
-type ShippingServiceClient interface {
+type TodoServiceClient interface {
 	AddTodo(ctx context.Context, in *Todo, opts ...grpc.CallOption) (*AddResponse, error)
 	GetTodos(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*GetResponse, error)
 	DeleteTodo(ctx context.Context, in *DeleteRequest, opts ...grpc.CallOption) (*DeleteResponse, error)
 }
 
-type shippingServiceClient struct {
+type todoServiceClient struct {
 	cc *grpc.ClientConn
 }
 
-func NewShippingServiceClient(cc *grpc.ClientConn) ShippingServiceClient {
-	return &shippingServiceClient{cc}
+func NewTodoServiceClient(cc *grpc.ClientConn) TodoServiceClient {
+	return &todoServiceClient{cc}
 }
 
-func (c *shippingServiceClient) AddTodo(ctx context.Context, in *Todo, opts ...grpc.CallOption) (*AddResponse, error) {
+func (c *todoServiceClient) AddTodo(ctx context.Context, in *Todo, opts ...grpc.CallOption) (*AddResponse, error) {
 	out := new(AddResponse)
-	err := c.cc.Invoke(ctx, "/todo.ShippingService/AddTodo", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/todo.TodoService/AddTodo", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *shippingServiceClient) GetTodos(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*GetResponse, error) {
+func (c *todoServiceClient) GetTodos(ctx context.Context, in *GetRequest, opts ...grpc.CallOption) (*GetResponse, error) {
 	out := new(GetResponse)
-	err := c.cc.Invoke(ctx, "/todo.ShippingService/GetTodos", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/todo.TodoService/GetTodos", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-func (c *shippingServiceClient) DeleteTodo(ctx context.Context, in *DeleteRequest, opts ...grpc.CallOption) (*DeleteResponse, error) {
+func (c *todoServiceClient) DeleteTodo(ctx context.Context, in *DeleteRequest, opts ...grpc.CallOption) (*DeleteResponse, error) {
 	out := new(DeleteResponse)
-	err := c.cc.Invoke(ctx, "/todo.ShippingService/DeleteTodo", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/todo.TodoService/DeleteTodo", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-// ShippingServiceServer is the server API for ShippingService service.
-type ShippingServiceServer interface {
+// TodoServiceServer is the server API for TodoService service.
+type TodoServiceServer interface {
 	AddTodo(context.Context, *Todo) (*AddResponse, error)
 	GetTodos(context.Context, *GetRequest) (*GetResponse, error)
 	DeleteTodo(context.Context, *DeleteRequest) (*DeleteResponse, error)
 }
 
-// UnimplementedShippingServiceServer can be embedded to have forward compatible implementations.
-type UnimplementedShippingServiceServer struct {
+// UnimplementedTodoServiceServer can be embedded to have forward compatible implementations.
+type UnimplementedTodoServiceServer struct {
 }
 
-func (*UnimplementedShippingServiceServer) AddTodo(ctx context.Context, req *Todo) (*AddResponse, error) {
+func (*UnimplementedTodoServiceServer) AddTodo(ctx context.Context, req *Todo) (*AddResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method AddTodo not implemented")
 }
-func (*UnimplementedShippingServiceServer) GetTodos(ctx context.Context, req *GetRequest) (*GetResponse, error) {
+func (*UnimplementedTodoServiceServer) GetTodos(ctx context.Context, req *GetRequest) (*GetResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method GetTodos not implemented")
 }
-func (*UnimplementedShippingServiceServer) DeleteTodo(ctx context.Context, req *DeleteRequest) (*DeleteResponse, error) {
+func (*UnimplementedTodoServiceServer) DeleteTodo(ctx context.Context, req *DeleteRequest) (*DeleteResponse, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method DeleteTodo not implemented")
 }
 
-func RegisterShippingServiceServer(s *grpc.Server, srv ShippingServiceServer) {
-	s.RegisterService(&_ShippingService_serviceDesc, srv)
+func RegisterTodoServiceServer(s *grpc.Server, srv TodoServiceServer) {
+	s.RegisterService(&_TodoService_serviceDesc, srv)
 }
 
-func _ShippingService_AddTodo_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _TodoService_AddTodo_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(Todo)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ShippingServiceServer).AddTodo(ctx, in)
+		return srv.(TodoServiceServer).AddTodo(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/todo.ShippingService/AddTodo",
+		FullMethod: "/todo.TodoService/AddTodo",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ShippingServiceServer).AddTodo(ctx, req.(*Todo))
+		return srv.(TodoServiceServer).AddTodo(ctx, req.(*Todo))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _ShippingService_GetTodos_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _TodoService_GetTodos_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(GetRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ShippingServiceServer).GetTodos(ctx, in)
+		return srv.(TodoServiceServer).GetTodos(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/todo.ShippingService/GetTodos",
+		FullMethod: "/todo.TodoService/GetTodos",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ShippingServiceServer).GetTodos(ctx, req.(*GetRequest))
+		return srv.(TodoServiceServer).GetTodos(ctx, req.(*GetRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-func _ShippingService_DeleteTodo_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _TodoService_DeleteTodo_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(DeleteRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(ShippingServiceServer).DeleteTodo(ctx, in)
+		return srv.(TodoServiceServer).DeleteTodo(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/todo.ShippingService/DeleteTodo",
+		FullMethod: "/todo.TodoService/DeleteTodo",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(ShippingServiceServer).DeleteTodo(ctx, req.(*DeleteRequest))
+		return srv.(TodoServiceServer).DeleteTodo(ctx, req.(*DeleteRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-var _ShippingService_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "todo.ShippingService",
-	HandlerType: (*ShippingServiceServer)(nil),
+var _TodoService_serviceDesc = grpc.ServiceDesc{
+	ServiceName: "todo.TodoService",
+	HandlerType: (*TodoServiceServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{
 			MethodName: "AddTodo",
-			Handler:    _ShippingService_AddTodo_Handler,
+			Handler:    _TodoService_AddTodo_Handler,
 		},
 		{
 			MethodName: "GetTodos",
-			Handler:    _ShippingService_GetTodos_Handler,
+			Handler:    _TodoService_GetTodos_Handler,
 		},
 		{
 			MethodName: "DeleteTodo",
-			Handler:    _ShippingService_DeleteTodo_Handler,
+			Handler:    _TodoService_DeleteTodo_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
