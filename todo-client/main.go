@@ -22,6 +22,7 @@ var client pb.ShippingServiceClient
 
 func main() {
 	conf, err := config.LoadEnv()
+	log.Infof("Config: %v", conf)
 	if err != nil {
 		log.Fatalf("Error loading config: %v", err)
 	}

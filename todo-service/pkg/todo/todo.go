@@ -3,6 +3,7 @@ package todo
 import (
 	"context"
 
+	"github.com/Deewai/todo/todo-service/pkg/log"
 	"github.com/Deewai/todo/todo-service/internal/proto/todo"
 
 	"github.com/google/uuid"
@@ -25,6 +26,7 @@ func NewService(repository Repository) *Service {
 }
 
 func (s *Service) AddTodo(ctx context.Context, req *todo.Todo) (*todo.AddResponse, error) {
+	log.Infof("Add Request: %v",req)
 	req.Id = uuid.New().String()
 	err := s.repository.AddItem(req.Id, *req)
 	if err != nil {
@@ -34,6 +36,7 @@ func (s *Service) AddTodo(ctx context.Context, req *todo.Todo) (*todo.AddRespons
 }
 
 func (s *Service) GetTodos(ctx context.Context, req *todo.GetRequest) (*todo.GetResponse, error) {
+	log.Infof("Get Request: %v",req)
 	items, err := s.repository.GetItems()
 	if err != nil {
 		return nil, err
@@ -47,6 +50,7 @@ func (s *Service) GetTodos(ctx context.Context, req *todo.GetRequest) (*todo.Get
 }
 
 func (s *Service) DeleteTodo(ctx context.Context, req *todo.DeleteRequest) (*todo.DeleteResponse, error) {
+	log.Infof("Delete Request: %v",req)
 	todoID := req.Id
 	err := s.repository.DeleteItem(todoID)
 	if err != nil {
