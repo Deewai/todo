@@ -5,7 +5,6 @@ build:
 run:
 	cd todo-service && SERVICE_PORT=${SERVICE_PORT} SERVICE_NAME=todoService $(MAKE) run
 	cd todo-client && CLIENT_PORT=${CLIENT_PORT} SERVICE_NAME=todoClient SERVER_ADDRESS=todoService:${SERVICE_PORT} $(MAKE) run
-	docker network rm todoNetwork
 	docker network create todoNetwork
 	docker network connect todoNetwork todoService
 	docker network connect todoNetwork todoClient
@@ -16,3 +15,4 @@ clean:
 	docker rm todoService
 	docker stop todoClient
 	docker rm todoClient
+	docker network rm todoNetwork
