@@ -19,6 +19,10 @@ RUN go mod download
 
 # Copy everything from the current directory to the PWD(Present Working Directory) inside the container
 COPY . .
+
+# Run tests
+RUN go test ./...
+
 RUN go install -v ./
 
 # Run the executable
